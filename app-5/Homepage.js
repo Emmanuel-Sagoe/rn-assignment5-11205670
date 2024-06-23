@@ -9,6 +9,7 @@ export default function Homepage() {
   const navigation = useNavigation();
   return (
     
+    
     <View style={styles.container}>
 
     <StatusBar style="#ffff"  />
@@ -335,8 +336,8 @@ fontSize:18,
     left:-17.5,
   },
   settings: {
-    tintColor:'grey',
-  }
+    tintColor:'#ababab',
+  },
 });
 
 
