@@ -42,7 +42,12 @@ export default function Settings() {
         </View>
 
 
+
+        <View style={styles.themeSection}>
         <Text style={styles.Theme}>Theme</Text>
+        <Image style={styles.togglebutton} source={require('./assets/toggleButton.png')} />
+        </View>
+        
 
         
 
@@ -96,7 +101,7 @@ const styles = StyleSheet.create({
   },
   section6: {
     height:70,
-    top:170,
+    top:155,
     left:23,
     marginRight:20, 
     display:'flex',
@@ -151,9 +156,18 @@ const styles = StyleSheet.create({
     height:50,
     width:50,
     lineHeight:12,
-    tintColor:'#bbbbbb',
+    tintColor:'#959595',
     top:-11,
     marginRight:0,
   },
-
+  togglebutton: {
+    height:60,
+    width:80,
+    top:120,
+    left:155,
+  },
+  themeSection: {
+    display:'flex',
+    flexDirection:'row',
+  },
 });
