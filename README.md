@@ -36,3 +36,9 @@ Updated the StatusBar component to change its style based on the current theme.
 
 Set up a Stack.Navigator in the App.js to handle navigation between Homepage and Settings screens.
 Used the useNavigation hook to enable navigation from within the components.
+
+# Screenshots of App
+
+![Homepage](./app-5/assets/Homepage.png)
+
+![Settings](./app-5/assets/settingsPage.png)
